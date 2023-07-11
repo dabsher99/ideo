@@ -12,7 +12,7 @@ jobs:
 #          ref: main    #checkout different branch
 
       - name: Generate Directory Listings
-        uses: dabsher99/ideo
+        uses: dabsher99/ideo@v3.0.0
         with:
           FOLDER: ideo      #directory to generate index
 
