@@ -6,10 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     name: Directory Listings Index
     steps:
-     - name: Checkout Repository
-       uses: actions/checkout@v3
-       with:
-         ref: main    #checkout different branch
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          ref: main    #checkout different branch
 
       - name: Generate Directory Listings
         uses: dabsher99/ideo@v3
